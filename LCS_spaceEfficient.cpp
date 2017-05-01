@@ -42,7 +42,7 @@ int lcsEff(char kisa[], char uzun[], int n1, int n2){
 
 int main(){
 
-  char param1[] = {'b','d','c','a','b','a'};
+  char param1[] = {'b','d','c','a','b','a','c'};
   char param2[] = {'a','b','c','b','d','a','b'};
   int a;
   if (sizeof(param1)>sizeof(param2)) {

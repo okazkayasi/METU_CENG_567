@@ -1,3 +1,5 @@
-## Longest Common Sequence finder.
-LCS.cpp uses O(n*m) space.
-LCS_spaceEfficient uses O(min(n,m)) space.
+## METU Computer Engineering 567 Design and Analysis of Algorithms.
+
+Adding whatever code I write on this course's subjects.
+
+So far only Dynamic Programming.

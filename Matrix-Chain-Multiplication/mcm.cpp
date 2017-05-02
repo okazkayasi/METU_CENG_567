@@ -18,12 +18,13 @@ int mcmFinder(int columns[], int rows[], int n){
       int minHold = 9999999;
       for (int k = row; k < col; k++) {
         int hold = valMat[row][k]+valMat[k+1][col]+rows[row]*columns[k]*columns[col];
-        cout << "Hold: " << hold << endl;
+        cout << "Nominee: " << hold << endl;
         minHold = min(minHold, hold);
       }
       valMat[row][col] = minHold;
-      cout << valMat[row][col] << endl;
-      cout << "col " << col << endl << "row " << row << endl << "n " << n << endl << endl;
+      cout << "Chosen: " << valMat[row][col] << endl;
+      cout << "Column: " << col << endl;
+      cout << "Row: " << row << endl << endl;
       col++;
       row++;
     }
